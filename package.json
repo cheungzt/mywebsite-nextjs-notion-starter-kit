@@ -24,6 +24,7 @@
     "deps:link:notion-client": "pnpm link ../react-notion-x/packages/notion-client",
     "deps:link:react-notion-x": "pnpm link ../react-notion-x/packages/react-notion-x",
     "test": "run-p test:*",
+    "test:typecheck": "tsc --noEmit",
     "test:lint": "eslint .",
     "test:prettier": "prettier '**/*.{js,jsx,ts,tsx}' --check"
   },
