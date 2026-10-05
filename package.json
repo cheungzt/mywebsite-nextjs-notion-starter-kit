@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^15.0.3",
-    "@react-icons/all-files": "^4.2.0",
+    "@react-icons/all-files": "^4.1.0",
     "@fisch0920/config": "^1.4.0",
     "@types/node": "^25.2.3",
     "@types/prismjs": "^1.26.5",
