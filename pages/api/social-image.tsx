@@ -4,8 +4,8 @@ import { ImageResponse } from 'next/og'
 import { type PageBlock } from 'notion-types'
 import {
   getBlockIcon,
-  getBlockValue,
   getBlockTitle,
+  getBlockValue,
   getPageProperty,
   isUrl,
   parsePageId
