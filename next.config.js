@@ -1,12 +1,12 @@
-import bundleAnalyzer from '@next/bundle-analyzer'
+//import bundleAnalyzer from '@next/bundle-analyzer'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const withBundleAnalyzer = bundleAnalyzer({
+//const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true'
 })
 
-export default withBundleAnalyzer({
+export default({
   staticPageGenerationTimeout: 300,
   images: {
     remotePatterns: [
